@@ -16,10 +16,10 @@ export default function App() {
         <section className="bg-white p-4 rounded-xl shadow">
           <h2 className="text-xl font-semibold mb-4">Client Details</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <input type="text" placeholder="Client Name" className="input" />
-            <input type="text" placeholder="Client Email" className="input" />
-            <input type="text" placeholder="Client Address" className="input" />
-            <input
+            <Input type="text" placeholder="Client Name" className="input" />
+            <Input type="text" placeholder="Client Email" className="input" />
+            <Input type="text" placeholder="Client Address" className="input" />
+            <Input
               type="text"
               placeholder="GSTIN (Optional)"
               className="input"
@@ -31,14 +31,14 @@ export default function App() {
         <section className="bg-white p-4 rounded-xl shadow">
           <h2 className="text-xl font-semibold mb-4">Invoice Details</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <input type="text" placeholder="Invoice Number" className="input" />
-            <input type="date" placeholder="Invoice Date" className="input" />
-            <input
+            <Input type="text" placeholder="Invoice Number" className="input" />
+            <Input type="date" placeholder="Invoice Date" className="input" />
+            <Input
               type="text"
               placeholder="Service Provided"
               className="input"
             />
-            <input type="number" placeholder="Amount (INR)" className="input" />
+            <Input type="number" placeholder="Amount (INR)" className="input" />
             <select className="input">
               <option value="18">GST 18%</option>
               <option value="12">GST 12%</option>
